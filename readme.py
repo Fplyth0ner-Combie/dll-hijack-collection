@@ -64,5 +64,5 @@ for item in table:
     readme += item_row
 readme += non_trusted
             
-with open("README.md", "w") as f:
+with open("README.md", "w", encoding="UTF-8") as f:
     f.write(readme)
